@@ -1,0 +1,32 @@
+body{
+    color: white;
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    max-width: 800px;
+   width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 10px;
+    border: 1px solid white;
+}
+.container h4{
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+.container label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container input[type="text"], .container input[type="password"], .container textarea{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 15px;
+}
