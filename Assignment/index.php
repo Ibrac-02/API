@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container"> 
         <h4>Login</h4>
-        <form action="index.php" method="post" onsubmit="return validateForm()" id="form">
+        <form action="class/signup.php" method="post" onsubmit="return validateForm()" id="form">
             <div>
             <label for="username">Username</label>
             <input type="text" id="username" name="username">
@@ -21,8 +21,17 @@
             <input type="password" id="password" name="password">
             <span id="password_error"></span>
             </div>
+            <div>
 
-            <input type="submit" value="Login" id="button">
+            <>
+            <input type="checkbox">Remember me &nbsp;&nbsp;
+            <a href="http://">Forget password?</a>
+            </div>
+
+            <button type="submit"  name="button">Login</button> 
+            </div>
+            
+           
         </form>
     </div>
     <script src="index.js"></script>
